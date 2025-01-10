@@ -1,24 +1,27 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: "Georgia", serif;
+    line-height: 1.8;
     margin: 0;
     padding: 0;
-    background: #f9f9f9;
-    color: #333;
+    background: #FDF6E3; /* Soft cream background */
+    color: #4D4D4D; /* Muted gray for text */
 }
 
 header {
-    background: #00539C;
-    color: white;
-    padding: 1rem 2rem;
+    background: #7FC8A9; /* Soft green */
+    color: #FDF6E3; /* Cream text color */
+    padding: 1.5rem 2rem;
     text-align: center;
+    border-bottom: 5px solid #F1C40F; /* Yellow accent */
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    background: #333;
+    margin: 0;
+    background: #F1C40F; /* Muted yellow */
     text-align: center;
+    border-bottom: 2px solid #7FC8A9; /* Green accent */
 }
 
 nav ul li {
@@ -27,21 +30,45 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #4D4D4D; /* Dark gray */
     text-decoration: none;
     padding: 10px 20px;
     display: inline-block;
+    font-weight: bold;
 }
 
 nav ul li a:hover {
-    background: #00539C;
+    background: #7FC8A9; /* Green hover effect */
+    color: #FDF6E3; /* Light text on hover */
 }
 
 section {
     padding: 2rem;
     margin: 2rem auto;
     max-width: 800px;
-    background: white;
+    background: #FFFFFF; /* White for content sections */
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-left: 10px solid #7FC8A9; /* Green accent border */
+}
+
+footer {
+    text-align: center;
+    background: #F1C40F; /* Yellow background */
+    padding: 1rem;
+    color: #4D4D4D; /* Dark gray text */
+    margin-top: 2rem;
+}
+
+h1, h2 {
+    font-family: "Trebuchet MS", sans-serif;
+    color: #4D4D4D; /* Harmonized text color */
+}
+
+a {
+    color: #7FC8A9; /* Green link color */
+}
+
+a:hover {
+    color: #F1C40F; /* Yellow on hover */
 }
